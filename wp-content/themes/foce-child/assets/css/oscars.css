@@ -1,0 +1,68 @@
+.oscars {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 50px 0px;
+  position: relative;
+  margin-top: 50px;
+}
+.oscars h3 {
+  background-image: url("../images/orange_oscars_characters_bg.png");
+  margin: 0;
+  padding: 0;
+  background-size: contain;
+  background-position: center;
+  text-align: left;
+  width: 70%;
+  height: 350px;
+}
+@media (max-width: 924px) {
+  .oscars h3 {
+    width: 100%;
+  }
+}
+.oscars span {
+  padding: 70px 180px;
+}
+@media (max-width: 924px) {
+  .oscars span {
+    font-size: 36px;
+    padding: 80px 120px;
+  }
+}
+@media (max-width: 724px) {
+  .oscars span {
+    font-size: 30px;
+    padding: 100px 80px;
+  }
+}
+@media (max-width: 524px) {
+  .oscars span {
+    font-size: 18px;
+    padding: 130px 60px;
+  }
+}
+@media (max-width: 400px) {
+  .oscars span {
+    font-size: 14px;
+    padding: 140px 60px;
+  }
+}
+.oscars img {
+  padding-top: 30px;
+}
+.oscars::before {
+  content: url("../images/Sunflower.png");
+  position: absolute;
+  left: 4em;
+  top: -5em;
+}
+.oscars::after {
+  content: url("../images/orchid.png");
+  position: absolute;
+  right: -5em;
+  top: -5em;
+}
+
+/*# sourceMappingURL=oscars.css.map */
